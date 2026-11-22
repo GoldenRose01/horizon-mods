@@ -1,0 +1,25 @@
+id = "enchlib"
+kind = "mod"
+name = "EnchLib — Horizon"
+summary = "Operator commands for inspecting and editing enchantments on Horizon."
+description = """
+**EnchLib — Horizon** is a server-side WebAssembly mod (API 0.2) providing operator commands to inspect and edit item enchantments directly in-game on Horizon 26.3.
+
+Built from the horizon-26.3 branch of the EnchLib repository against horizon-mod-api.
+"""
+authors = ["GoldenRose01"]
+owners = ["GoldenRose01"]
+owner_ids = [116004785]
+license = "CC0-1.0"
+source = "https://github.com/GoldenRose01/enchlib/tree/horizon-26.3"
+icon = "icons/enchlib.png"
+categories = ["library", "utility"]
+tags = ["enchantments", "commands", "library", "horizon"]
+
+[[versions]]
+version = "1.8.1-alpha.1"
+published = "2026-11-22"
+game = "26.3"
+file = "enchlib.hmod"
+sha256 = "4ac9176606c62f9c5864dc606436376bfce8c9bf107c953dfe73e548ef76ed2a"
+changelog = "Initial Horizon 26.3 WebAssembly release for EnchLib."
