@@ -1,0 +1,27 @@
+id = "elevators"
+kind = "mod"
+name = "BetterVanilla+ — Elevators"
+summary = "Vertical wool and chiseled stone elevator blocks for Horizon 26.3."
+description = """
+**BetterVanilla+ — Elevators** brings vertical elevator blocks to Horizon (WebAssembly mod, API 0.2):
+
+- Craftable wool, copper, and chiseled stone elevator variants.
+- Jump on an elevator block to teleport smoothly to the matching elevator above, or sneak to descend to the elevator below.
+- Includes blockstates, models, recipes, loot tables, and translations.
+"""
+authors = ["GoldenRose01"]
+owners = ["GoldenRose01"]
+owner_ids = [116004785]
+license = "CC0-1.0"
+source = "https://github.com/GoldenRose01/BetterVanilla-/tree/horizon-26.3"
+icon = "icons/elevators.png"
+categories = ["utility"]
+tags = ["elevators", "teleport", "vanilla-plus", "horizon"]
+
+[[versions]]
+version = "1.1.0-alpha.1"
+published = "2026-11-22"
+game = "26.3"
+file = "elevators.hmod"
+sha256 = "fdadf115f936ffa0ab27f11edd93bf0afe3fa4ed42ce7d0dec7947c891b175d3"
+changelog = "Initial Horizon 26.3 WebAssembly release for BetterVanilla+ Elevators."
