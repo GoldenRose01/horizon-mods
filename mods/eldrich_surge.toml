@@ -1,0 +1,29 @@
+id = "eldrich_surge"
+kind = "mod"
+name = "Eldrich Surge — Horizon"
+summary = "Horizon preview of Katana, Smithcrafts and Impaler Reach enchantments."
+description = """
+Horizon preview of **Eldrich Surge**, adding custom enchantments and datapack tags for Minecraft 26.3 on Horizon:
+
+- **Katana**: boosts attack speed and damage scaling on compatible weapons.
+- **Smithcrafts**: utility enchantment for crafting/smithing progression.
+- **Impaler Reach**: extends melee and interaction reach on spears.
+
+Includes English (en_us) and Italian (it_it) localizations. Built from the horizon-26.3 branch of the Eldrich Surge repository.
+"""
+authors = ["GoldenRose01"]
+owners = ["GoldenRose01"]
+owner_ids = [116004785]
+license = "MIT"
+source = "https://github.com/GoldenRose01/Eldrich-Surge/tree/horizon-26.3"
+icon = "icons/eldrich_surge.png"
+categories = ["equipment", "utility"]
+tags = ["enchantments", "combat", "horizon"]
+
+[[versions]]
+version = "1.9.1-alpha.1"
+published = "2026-11-22"
+game = "26.3"
+file = "eldrich_surge.hmod"
+sha256 = "a4e58de335c23c71dc513139a156bb3b6790d08dc29a4e1a9aa7aff27973f63a"
+changelog = "Initial Horizon 26.3 content preview (Katana, Smithcrafts, Impaler Reach)."
