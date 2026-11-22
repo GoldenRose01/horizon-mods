@@ -1,0 +1,26 @@
+id = "durabilityviewer"
+kind = "mod"
+name = "Durability Viewer"
+summary = "Shows durability of your armor and tools on the HUD."
+description = """
+A Horizon WebAssembly port of [Durability Viewer](https://github.com/gbl/DurabilityViewer) by Giselbaer & fanta (MIT License; upstream repository is archived).
+
+- Renders equipped armor, main hand, and offhand item icons with color-coded remaining durability on the HUD (`render_gui_post`).
+
+Original mod: https://github.com/gbl/DurabilityViewer (Giselbaer & fanta, MIT License).
+"""
+authors = ["Giselbaer", "fanta", "GoldenRose01"]
+owners = ["GoldenRose01"]
+owner_ids = [116004785]
+license = "MIT"
+source = "https://github.com/GoldenRose01/DurabilityViewer/tree/horizon-port/horizon"
+categories = ["utility"]
+tags = ["hud", "durability", "port"]
+
+[[versions]]
+version = "1.13.1"
+published = "2026-11-22"
+game = "26.3"
+file = "durabilityviewer.hmod"
+sha256 = "aaa616735757b90a6f87621571c44b2bafa43264682422b5ca19662ec1181c9e"
+changelog = "Initial Horizon WebAssembly (.hmod) port"
