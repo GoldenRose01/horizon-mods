@@ -1,0 +1,29 @@
+id = "enchlib"
+kind = "mod"
+name = "EnchLib — Horizon"
+summary = "Operator commands for inspecting and editing enchantments on Horizon."
+description = """Operator commands for inspecting, adding, removing, and managing item enchantments and durability on Horizon 26.3.
+
+## Commands (`/plusec`)
+- `/plusec add <id> [level]` — add or update an enchantment on the held item.
+- `/plusec remove <id>` — remove an enchantment.
+- `/plusec info <id>` / `/plusec list` — inspect enchantment details and active/stored enchantments.
+- `/plusec clear` / `/plusec repair` / `/plusec setdurability <percent>` / `/plusec damage <delta>` — manage enchantments and item durability.
+
+Written in Rust as a sandboxed WebAssembly server-side mod on `horizon-mod-api` (API 0.2)."""
+authors = ["GoldenRose01"]
+owners = ["GoldenRose01"]
+owner_ids = [116004785]
+license = "CC0-1.0"
+source = "https://github.com/GoldenRose01/enchlib"
+icon = "icons/enchlib.png"
+categories = ["utility", "magic"]
+tags = ["enchantments", "commands", "server", "wasm"]
+
+[[versions]]
+version = "1.8.1-alpha.1"
+published = "2026-11-22"
+game = "26.3"
+file = "enchlib.hmod"
+sha256 = "4ac9176606c62f9c5864dc606436376bfce8c9bf107c953dfe73e548ef76ed2a"
+changelog = "Initial Horizon 26.3 WebAssembly server mod release (SDK 2b77287)."

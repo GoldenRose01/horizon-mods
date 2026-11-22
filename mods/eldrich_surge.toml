@@ -1,0 +1,28 @@
+id = "eldrich_surge"
+kind = "mod"
+name = "Eldrich Surge — Horizon"
+summary = "Horizon preview of Katana, Smithcrafts and Impaler Reach enchantments."
+description = """Horizon 26.3 preview of Eldritch Surge, packaged as a data/content mod.
+
+## Included enchantments
+- **Katana** (`eldrich-surge:katana`)
+- **Smithcrafts** (`eldrich-surge:smithcrafts`)
+- **Impaler Reach** (`eldrich-surge:impaler_reach`)
+
+Includes English (`en_us`) and Italian (`it_it`) translations and enchantment tags (`additional_damage`, `weapon_utility`). Content-only `.hmod` package (no executable code)."""
+authors = ["GoldenRose01"]
+owners = ["GoldenRose01"]
+owner_ids = [116004785]
+license = "MIT"
+source = "https://github.com/GoldenRose01/Eldrich-Surge"
+icon = "icons/eldrich_surge.png"
+categories = ["magic", "equipment", "game-mechanics"]
+tags = ["enchantments", "combat", "content-mod"]
+
+[[versions]]
+version = "1.9.1-alpha.1"
+published = "2026-11-22"
+game = "26.3"
+file = "eldrich_surge.hmod"
+sha256 = "b8c8deeeb2b011861aef5fb23db2e19f5357379aed09bcab191c91af102ae2d2"
+changelog = "Initial Horizon 26.3 content mod preview release."
