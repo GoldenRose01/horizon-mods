@@ -1,15 +1,15 @@
 id = "eldrich_surge"
-kind = "mod"
+kind = "native-mod"
 name = "Eldrich Surge — Horizon"
-summary = "Horizon preview of Katana, Smithcrafts and Impaler Reach enchantments."
-description = """Horizon 26.3 preview of Eldritch Surge, packaged as a data/content mod.
+summary = "Horizon native port of Eldrich Surge: 122 enchantments, tags, translations, and /eldrich commands."
+description = """Horizon 26.3 native port of Eldrich Surge (Phase 1).
 
-## Included enchantments
-- **Katana** (`eldrich-surge:katana`)
-- **Smithcrafts** (`eldrich-surge:smithcrafts`)
-- **Impaler Reach** (`eldrich-surge:impaler_reach`)
+## Included in Phase 1
+- All **122 enchantment definitions** (`eldrich-surge:*`) with 1–255 logarithmic lookup scaling.
+- Full enchantment tags (`additional_damage`, `weapon_utility`, etc.) and `en_us` / `it_it` translations.
+- `/eldrich` & `/eldritch` operator commands (`keep_loyalty_tridents`, `sweeping_requires_enchantment`, `lethal_poison`).
 
-Includes English (`en_us`) and Italian (`it_it`) translations and enchantment tags (`additional_damage`, `weapon_utility`). Content-only `.hmod` package (no executable code)."""
+Native Rust source package on `horizon-mod-api` (API 0.2, portable across Nightlies)."""
 authors = ["GoldenRose01"]
 owners = ["GoldenRose01"]
 owner_ids = [116004785]
@@ -17,12 +17,12 @@ license = "MIT"
 source = "https://github.com/GoldenRose01/Eldrich-Surge"
 icon = "icons/eldrich_surge.png"
 categories = ["magic", "equipment", "game-mechanics"]
-tags = ["enchantments", "combat", "content-mod"]
+tags = ["enchantments", "combat", "native"]
 
 [[versions]]
-version = "1.9.1-alpha.1"
+version = "1.9.1-alpha.2"
 published = "2026-11-22"
 game = "26.3"
 file = "eldrich_surge.hmod"
-sha256 = "b8c8deeeb2b011861aef5fb23db2e19f5357379aed09bcab191c91af102ae2d2"
-changelog = "Initial Horizon 26.3 content mod preview release."
+sha256 = "f08bbf8a2121c5683f3ea04164d5cf9d1f2865e7fd1e04a747a372ef8d0634e6"
+changelog = "Phase 1 native package: all 122 enchantments, tags, translations, and /eldrich commands."

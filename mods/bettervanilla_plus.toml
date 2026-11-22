@@ -1,0 +1,27 @@
+id = "bettervanilla_plus"
+kind = "mod"
+name = "BetterVanilla+"
+summary = "Elevators, cauldron conversions, beacon saturation, treecut, and personal keepinventory for Horizon 26.3."
+description = """BetterVanilla+ for Horizon 26.3, built in Rust as a sandboxed WebAssembly mod.
+
+## Features
+- **Elevators:** 29 wool, copper, and chiseled block variants with vertical teleportation (right-click up, sneak + right-click down, 128-block range) and shapeless crafting recipes.
+- **Cauldron conversions:** drop dirt, coarse dirt, rooted dirt, or any concrete powder color into a water cauldron to convert it to mud or concrete.
+- **Beacon Saturation:** drop a Golden Apple on top of a level 4 beacon with Regeneration to grant Saturation V to nearby players within 50 blocks.
+- **TreeCut & KeepInventory:** sneak-felling/chopping trees with `/gameset treecut <off|fell|chop>` and per-player keep-inventory with `/gameset player keepinventory <on|off> <player>`."""
+authors = ["GoldenRose01"]
+owners = ["GoldenRose01"]
+owner_ids = [116004785]
+license = "CC0-1.0"
+source = "https://github.com/GoldenRose01/BetterVanilla-"
+icon = "icons/bettervanilla_plus.png"
+categories = ["transportation", "utility", "game-mechanics"]
+tags = ["elevators", "vanilla-plus", "treecut", "wasm"]
+
+[[versions]]
+version = "1.1.0"
+published = "2026-11-22"
+game = "26.3"
+file = "bettervanilla_plus.hmod"
+sha256 = "b95baba94a1fe37276e1ee9e55f053bf726ffc39d89139d9d4b129901c50dc4b"
+changelog = "Renamed from elevators to bettervanilla_plus (v1.1.0) and added cauldron conversions, beacon saturation, treecut, and personal keepinventory."
