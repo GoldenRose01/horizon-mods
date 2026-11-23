@@ -16,6 +16,7 @@ owners = ["GoldenRose01"]
 owner_ids = [116004785]
 license = "MIT"
 source = "https://github.com/GoldenRose01/Clumps/tree/horizon-port/horizon"
+icon = "icons/clumps.png"
 categories = ["utility"]
 tags = ["xp", "optimization", "port"]
 
